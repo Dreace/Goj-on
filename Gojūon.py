@@ -43,14 +43,14 @@ def main():
         print("\n")
         x = random.choice(candidates)
         kanas = [x["hiragana"], x["katakana"]]
-        print("仮名:",end=' ')
+        print("仮名:", end=' ')
         if 1 <= remember_type <= 2:
             print(f"\033[91m{kanas[remember_type - 1]}\033[00m")
         else:
             print(f"\033[91m{kanas[random.randint(0, 1)]}\033[00m")
         pronunciation = input("ローマ人: ")
         if pronunciation == x["pronunciation"]:
-            print("✔")
+            print("✔️")
             correct_count += 1
         else:
             print("❌")

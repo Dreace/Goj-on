@@ -159,5 +159,59 @@
       "me",
       "mo"
     ]
+  },
+  {
+    "hiragana": [
+      "や",
+      "ゆ",
+      "よ"
+    ],
+    "katakana": [
+      "ヤ",
+      "ユ",
+      "ヨ"
+    ],
+    "pronunciation": [
+      "ya",
+      "yu",
+      "yo"
+    ]
+  },
+  {
+    "hiragana": [
+      "ら",
+      "り",
+      "る",
+      "れ",
+      "ろ"
+    ],
+    "katakana": [
+      "ラ",
+      "リ",
+      "ル",
+      "レ",
+      "ロ"
+    ],
+    "pronunciation": [
+      "ra",
+      "ri",
+      "ru",
+      "re",
+      "ro"
+    ]
+  },
+  {
+    "hiragana": [
+      "わ",
+      "を"
+    ],
+    "katakana": [
+      "ワ",
+      "ヲ"
+    ],
+    "pronunciation": [
+      "a",
+      "ro"
+    ]
   }
 ]
