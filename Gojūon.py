@@ -11,10 +11,10 @@ def main():
     with open("data.json", encoding='utf-8') as data_file:
         data = json.loads(data_file.read())
     for index, line in enumerate(data):
-        print(f"{index + 1}. ", end='')
+        print(f"{index + 1}.{' ' if index + 1 < 10 else ''}", end='')
         for hiragana in line["hiragana"]:
             print(hiragana, end=' ')
-        print("\n   ", end='')
+        print(f"\n   ", end='')
         for katakana in line["katakana"]:
             print(katakana, end=' ')
         print()
